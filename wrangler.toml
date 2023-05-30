@@ -1,0 +1,10 @@
+name = "dyn_dns"
+main = "build/worker/shim.mjs"
+compatibility_date = "2023-03-22"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
+
+[vars]
+identifier = "264ba763f2006647b6ebad463a53d6ea"
+zone_identifier = "f0a21657941c5b45b6103d30dd21f8a9"
